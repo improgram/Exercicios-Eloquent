@@ -1,0 +1,13 @@
+Se você está inseguro sobre como testar suas soluções para os exercícios, 
+consulte a introdução.
+
+Cada exercício começa com a descrição de um problema.
+ Leia e tente resolvê-lo. 
+Se você tiver dificuldades, considere a leitura das dicas abaixo do exercício.
+ As soluções completas para os exercícios não estão inclusas neste livro,
+ mas você pode procurar elas onlines em eloquentjavascript.net/code.
+ Se você quer aprender algo, 
+eu recomendo que veja as soluções somente após ter resolvido o exercício,
+ ou pelo menos,
+ depois que tentou por um período longo e duro
+ o suficiente para dar uma pequena dor de cabeça.
