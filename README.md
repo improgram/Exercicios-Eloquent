@@ -1,3 +1,4 @@
 # JS
 2019
-"# Exercicios_Eloquent" 
+
+"# Exercicios do Livro JavaScript Eloquent 2 edicao."  
