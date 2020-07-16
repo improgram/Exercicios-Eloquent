@@ -1,33 +1,44 @@
 <html>
     <body>
 
-<h2>Triângulo com Loop</h2>
-<p>Escreva um programa que faça sete chamadas.</p>
-<p>Para retornar o seguinte resultado :</p>
- <br>
+<h3>Loop - Pagina 25</h3>
+<p>Escreva um programa que faça sete chamadas.<br>
+Para retornar o seguinte resultado :</p>
     #<br>
     ##<br>
     ###<br>
     ####<br>
     #####<br>
     ######<br>
-    #######<br>
-    
-<p>Uma maneira interessante para saber o comprimento</p>
-<p> de uma string é escrevendo .length após ela.</p>    
+    #######<br>    
+
+<p>Na primeira linha queremos apenas uma coluna<br>
+Na segunda Linha queremos duas colunas, etc...</p>
+<a href= "http://eloquentjavascript.net/2nd_edition/code" target="_blank">Site Eloquent</a>
 
 <script>
 
 function mostra(frase){
-    document.write(frase + '<br>')
+    document.write(frase)
 }
-mostra('<hr>Script abaixo : </hr>')
+mostra('<h4><hr>Script abaixo : </hr></h4>')
 
-var number = 0;
-while (number <= 7){
-    mostra('#');
-    number = number + 1;
+for (var linha = 0; linha <= 7; linha = linha + 1 ) {
+//Para cada linha, imprima * e pule uma linha.     
+    for(var coluna = 0; coluna < linha; coluna = coluna + 1){
+//Para cada coluna imprima #        
+        mostra(' # ');
+    }
+    mostra(' * ' + '<br>')
 }
+//Cada vez que o loop termina, ele pula linha e comeca a execucao
+//da proxima iteracao do loop que cuida das colunas.
+mostra('<h3>Outra forma : </h3>')
+
+for(var linha2 = "@"; linha2.length < 8; linha2 = linha2 + "@"){
+    mostra(linha2 + '<br>');
+}
+
 
         </script>
     </body>
